@@ -120,7 +120,7 @@ const Contact = () => {
           </div>
           <div className='pt-2'>
             <p className="text-lg font-semibold">Email</p>
-            <p className="text-purple-600 text-lg">adanna.nnajiofor@gmail.com</p>
+            <p className="text-purple-600 text-sm lg:text-lg ">adanna.nnajiofor@gmail.com</p>
           </div>
           <div className='pt-2'>
             <p className="text-lg font-semibold">Phone</p>
