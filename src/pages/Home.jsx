@@ -12,7 +12,7 @@ const Home = () => {
           <h1 className="text-4xl py-6 font-extrabold">
             I'M <span className="text-purple-600">ADANNA</span>
           </h1>
-          <div className="bg-purple-600  text-white text-center p-4 mt-4  lg:mt-8 w-72">
+          <div className="  bg-purple-600 text-2xl text-white text-center p-4 mt-4  lg:mt-8 ">
             <h6>ARCHITECT | WEB DEVELOPER</h6>
           </div>
           <p className="pt-3 pb-3 mt-8 leading-9 text-xl">
