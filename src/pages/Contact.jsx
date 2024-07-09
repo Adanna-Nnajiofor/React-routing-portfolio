@@ -19,9 +19,9 @@ const Contact = () => {
   ];
 
   return (
-    <section className="bg-gray-100 text-black flex flex-col p-6 w-full h-full items-center lg:flex-row lg:items-start">
+    <section className="bg-gray-200 text-black flex flex-col p-6 w-full h-full items-center lg:flex-row lg:items-start">
       <div className="p-6 w-full flex flex-col lg:sticky top-0 bottom-0">
-        <div className="py-4 text-center border-solid border-2 border-purple-600">
+        <div className="py-4 text-center border-solid border-2 bg-gray-300 border-purple-600">
           <h1 className="font-extrabold text-3xl">CONTACT</h1>
         </div>
         <p className="py-8 text-xl leading-9">

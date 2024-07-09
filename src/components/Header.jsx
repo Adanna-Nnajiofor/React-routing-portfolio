@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/na_logo-removebg-preview.png"
+import logo from "../assets/images/na_logo-removebg-preview.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { IoMdClose } from "react-icons/io";
 
@@ -19,7 +19,6 @@ const Header = () => {
   const toggleLinks = () => {
     setShowLinks(!showLinks);
   };
-
 
   return (
     // <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-4 bg-blue-900 shadow-md">
@@ -54,13 +53,9 @@ const Header = () => {
       </div>
 
       {/* For screens with min-width of 1024px */}
-      <div className="hidden md:flex md:justify-center md:space-x-12">
+      <div className="hidden md:flex md:justify-center md:space-x-6">
         {links.map(({ label, url }) => (
-          <Link
-            to={url}
-            key={url}
-            className="text-white hover:text-purple-400"
-          >
+          <Link to={url} key={url} className="text-white hover:text-purple-400">
             {label}
           </Link>
         ))}
